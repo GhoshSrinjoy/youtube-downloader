@@ -142,16 +142,6 @@ python ytdl_gui.py
 - `ERROR: Unsupported URL`: Make sure the URL is from YouTube
 - `ERROR: Video is unavailable`: The video might be private or deleted
 
-## File Structure
-
-```
-youtube_downloader/
-├── ytdl_gui.py          # Main application file
-├── setup_env.bat        # Windows setup script
-├── setup_env.sh         # Linux/macOS setup script
-└── README.md           # This file
-```
-
 ## Dependencies
 
 - PyQt6: GUI framework
