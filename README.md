@@ -27,7 +27,7 @@ or
 
 pip install -r requirements.txt
 ```
-### For Docker
+### For Docker(coming soon)
 ```bash
 # From D:\src\download_video
 docker build -t youtube-downloader-gui -f docker/Dockerfile .
