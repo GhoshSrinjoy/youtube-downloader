@@ -1,7 +1,7 @@
 # YouTube Downloader
 
 A PyQt6-based GUI application for downloading YouTube videos with advanced options.
-
+![alt text](UI.png)
 ## Prerequisites
 
 - Python 3.10 or higher
