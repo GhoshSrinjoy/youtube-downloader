@@ -1,7 +1,51 @@
-# YouTube Downloader
+*“I told my AI to take a break. It downloaded a playlist instead.”*  
 
 A PyQt6-based GUI application for downloading YouTube videos with advanced options.
 ![alt text](UI.png)
+
+## Executive Summary  
+
+This project wraps the powerful `yt-dlp` engine in a user-friendly PyQt6 interface, giving you easy control over format, resolution, codec, and metadata options.  
+
+It’s made for developers, content curators, educators, and anyone who’s ever thought, *“I wish this CLI had a nice GUI.”*  
+
+**Highlights**  
+- 🎥 Download full videos, audio-only, or both  
+- ⚙️ Customize resolution, codecs, and bitrates  
+- 📜 Optionally save subtitles, thumbnails, and metadata  
+- 💾 Auto-merges audio/video streams with `ffmpeg`  
+- 🪄 Designed for simplicity, built for control  
+
+---
+
+## Business Problem  
+
+Command-line downloaders are great , until you hand them to someone who’s not you.  
+
+**Pain points solved:**  
+- Non-technical users struggle with CLI flags  
+- YouTube often changes formats or codecs  
+- Managing ffmpeg and yt-dlp dependencies is messy  
+
+**This GUI solves all that.**  
+It wraps everything in a cross-platform, intuitive interface without sacrificing flexibility.  
+
+---
+
+## Methodology  
+
+**Built With:**  
+- 🧱 **PyQt6** – for a modern, responsive interface  
+- ⚙️ **yt-dlp** – for robust YouTube and site-wide downloading  
+- 🎧 **ffmpeg** – for audio/video merging and processing  
+
+**How it works**  
+1. User inputs a YouTube URL.  
+2. App fetches available formats via `yt-dlp`.  
+3. User chooses resolution, codec, and output preferences.  
+4. Video and audio streams are downloaded separately (if needed).  
+5. `ffmpeg` merges and outputs the final file.  
+
 ## Prerequisites
 
 - Python 3.10 or higher
