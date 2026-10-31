@@ -1,0 +1,2 @@
+# Packaging the desktop app: python packaging/build.py
+pyinstaller>=6.11
