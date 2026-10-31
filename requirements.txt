@@ -1,2 +1,6 @@
-PyQt6
-yt-dlp
+# Desktop app and command line. yt-dlp's extras bring its recommended helpers:
+# "default" = the YouTube challenge solver (yt-dlp-ejs) and friends, "deno" = the Deno runtime it uses.
+PyQt6>=6.7
+yt-dlp[default,deno]>=2026.10.26
+# A bundled ffmpeg, so merging HD video and converting audio work without installing anything
+imageio-ffmpeg>=0.6
