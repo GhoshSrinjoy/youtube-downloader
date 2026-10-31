@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# packaging output
+build/
+dist/
+
+# unfinished downloads
+*.part
+*.ytdl
+
+.DS_Store
+.idea/
+.vscode/
